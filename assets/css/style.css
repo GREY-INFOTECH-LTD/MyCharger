@@ -1,0 +1,459 @@
+@import url("https://use.typekit.net/okm0fpl.css");
+
+:root {
+    --bg-gray-1: #fafafa;
+    --bg-gray-2: #f0f0f0;
+    --p-blue-1: #1c5b96;
+    --p-green: #00b300;
+    --p-yellow: #d9ff00;
+    --p-blue-3: #0d1018;
+    --s-blue: #79C1CC;
+    --s-blue-2: #79c1cc46;
+    --s-green-1: #9df19c;
+    --s-green-2: #b6f5b5;
+    --s-green-3: #cddbc2;
+    --t-green: #0c4b0c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: var(--p-blue-1);
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'futura-pt', sans-serif;
+    font-size: 1.2rem;
+}
+
+i {
+    color: #4b5887;
+}
+
+i:hover {
+    color: #79c1cc;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    border: none!important;
+}
+
+.card-header:first-child {
+    border-radius: 0!important;
+}
+
+/*--------------- Custom Classes */
+.section-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: var(--p-blue-1);
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+
+.font-dark {
+    color: var(--p-blue-1);
+}
+
+.btn.btn-main {
+    font-family: 'Oswald', sans-serif;
+    background-color: #4b5887;
+    color: var(--bg-gray-1);
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.btn.btn-main:hover {
+    background-color: var(--p-blue-1);
+    color: var(--bg-gray-1);
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px var(--p-blue-3);
+    margin-left: 10px;
+}
+
+.green-btn {
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--p-blue-3);
+    color: var(--bg-gray-1);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    box-shadow: 0px 0px 10px var(--p-blue-3);
+}
+
+.section-heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.text-green,
+.btn-none {
+    font-family: 'futura-pt', sans-serif;
+    background-color: transparent;
+    background: none;
+    border: none;
+    color: var(--p-yellow);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.text-blue {
+    font-family: 'futura-pt', sans-serif;
+    color: #4b5887;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.text-bold {
+    font-weight: 600;
+    font-family: 'futura-pt', sans-serif;
+}
+
+.cover {
+    min-height: 100%;
+    height: 100vh;
+}
+
+/*-------------- Navbar */
+.navbar {
+    font-family: 'futura-pt', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.15rem;
+    font-weight: 450;
+    padding: 15px;
+    color: var(--p-blue-1);
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 1.50rem !important;
+    font-weight: 450 !important;
+    padding: 15px !important;
+    color: var(--p-blue-1);
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Landing Page */
+.landing-page {
+    max-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    max-width: 100%;
+    min-height: 100%!important;
+    margin-top: 50px;
+}
+
+.mission-bg {
+    background-color:var(--s-green-3)!important;
+}
+
+h2.mission-statement {
+    font-family: 'futura-pt', sans-serif;
+    letter-spacing: .5px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+#down {
+    color: #303854;
+}
+
+#down:hover {
+    color: #79c1cc;
+}
+
+#hero-text {
+    margin-top: 40px;
+}
+
+h1.display-4 {
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 2.3rem;
+    font-weight: 410;
+    color: var(--p-blue-1);
+    margin: 5px 15px;
+
+}
+
+p.lead {
+    font-family: 'futura-pt', sans-serif;
+    font-size: 1.25rem;
+    color: var(--p-blue-1);
+    font-weight: 400;
+    margin: 0 15px;
+}
+
+.cta-button {
+    font-family: 'futura-pt', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 1.4rem;
+    border: none;
+    margin: 10px 0;
+}
+
+/* Quiz Page */
+#sizeCompact:hover,
+#sizeMed:hover,
+#sizeSUV:hover {
+    background-color: var(--bg-gray-1);
+    box-shadow: 0px 0px 10px #cddbc2;
+}
+
+#modal-desc {
+    font-size: 1rem;
+    color: #4b5887;
+}
+
+.modal-footer {
+    border-top: 0!important;
+}
+
+.modal-content {
+    border: 10px solid #cddbc2!important;
+}
+
+.text-muted.text-small {
+    font-family: 'futura-pt', sans-serif;
+
+}
+
+#searchResultsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.car-display-card {
+    width: 320px;
+    margin: 10px;
+}
+
+.quiz-icon {
+    color: #79C1CC!important;
+}
+
+.calculator-card {
+    background-color: #79c1cc34!important; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin-top: 20px;
+}
+
+.quiz-card-header {
+    background-color:#4b58879a!important;
+}
+
+.quiz-card {
+    border: 5px solid #4b5887!important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
+.quiz-title {
+    color: var(--bg-gray-1)!important;
+}
+
+.quiz-results-header {
+    background-color: #cddbc2!important;   
+}
+
+.quiz-results-bg {
+    border: 10px solid #cddbc28a!important;
+}
+
+
+/* Footer */
+footer {
+    font-family: 'futura-pt', sans-serif;
+    letter-spacing: 0.5px;
+    background-color: var(--bg-gray-2);
+    ;
+    position: relative;
+}
+
+.footer-text {
+    font-family: 'futura-pt', sans-serif;
+    color: var(--p-blue-3);
+    text-transform: uppercase;
+}
+
+#footer-links a {
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0d1018;
+}
+
+a.link-secondary:hover {
+    color: #4b5887;
+}
+
+/* Team page */
+.team-row {
+    margin-top: 4rem !important;
+}
+
+.card-body i {
+    padding: 2px;
+}
+
+.team-text-small {
+    font-size: 15px;
+}
+
+#team-card,
+#team-card-1,
+#team-card-2,
+#team-card-3,
+#team-card-4,
+#team-card-5 {
+    border: 0;
+    width: 12rem;
+    margin-top: 25px;
+    align-content: center;
+
+}
+
+#team-card img,
+#team-card-1 img,
+#team-card-2 img,
+#team-card-3 img,
+#team-card-4 img,
+#team-card-5 img  {
+    border-radius: 5rem;
+    width: 10rem;
+}
+
+#footer-copyright {
+    font-family: 'futura-pt', sans-serif;
+}
+
+/*selected question border*/
+.card-selected {
+    box-shadow: 0 0 5px 5px #79c1cc;
+}
+
+/* 404 error page */
+#error-page {
+    background-color: #fafafa;
+    max-width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    overflow: auto;
+}
+
+.mainbox {
+    margin: 0 auto;
+    height: 600px;
+    max-width: 800px;
+    position: relative;
+}
+
+#error, #error2,
+.err {
+    font-family: 'futura-pt', sans-serif;
+    color: var(--p-yellow);
+    font-size: 11rem;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+}
+
+.far {
+    position: absolute;
+    font-size: 8.5rem;
+    left: 42%;
+    top: 15%;
+    color: #ea5d5d;
+}
+
+.err2 {
+    font-family: 'futura-pt', sans-serif;
+    color: var(--p-yellow);
+    font-size: 11rem;
+    position: absolute;
+    left: 68%;
+    top: 8%;
+}
+
+.msg {
+    text-align: center;
+    color: #4b5887;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+}
+
+#img-404 {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 768px) {
+    .jumbotron {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .mission-container {
+        max-width: 100%;
+        min-height: 100%;
+        height: auto;
+    }
+}
+
+/* Range Input Styling */
+
+.custom-range::-webkit-slider-thumb {
+    background: gray !important;
+}
+
+.custom-range::-moz-range-thumb {
+    background: gray !important;
+}
+
+.custom-range::-ms-thumb {
+    background: gray !important;
+}
