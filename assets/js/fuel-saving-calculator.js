@@ -28,7 +28,7 @@ function clearMileageSelection() {
 }
 
 function validateMPGInput(value) {
-    return /^\d{0,3}(\.\d{0,2})?$/.test(value);
+    return /^\d{0,3}(\.\d{0,2})?₦/.test(value);
 }
 
 // Live MPG Input Validation Error Message
@@ -47,11 +47,11 @@ document.getElementById("customFuelPrice").oninput = function()  {
 // Yearly Savings Calculator Functions
 
 // Set Default Variables
-var fuelPrice = 4.23; // Per Gallon in USD - Average across USA on 20/04/2022
-var vehicleMPG = 36; // Average American Vehicle MPG
+var fuelPrice = 663; // Per liter in Naira - Average across Nigeria on 11/02/2024
+var vehicleMPG = 28.5; // Average Nigeria Vehicle MPG
 var electricKwhUsage = 4;
 var electricityPrice = 13.72; // Per kWh in cents
-var mileage = 14263; // Average American Yearly Mileage
+var mileage = 16263; // Average Nigeria Yearly Mileage
 
 // Function to check for and store slider input
 function checkSliderInput(targetElement, value) {
