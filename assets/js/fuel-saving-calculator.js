@@ -74,7 +74,7 @@ function checkCalculatorInputValues() {
         if (customFuelPrice.value > 0 && validateMPGInput(value) == true) {
             fuelPrice = customFuelPrice.value;
         } else if (customFuelPrice.value > 0 && validateMPGInput(value) == false) {
-            alert("Please enter a valid input for Fuel Price. The calculator will use the Default Average Fuel Price of $" + fuelPrice + " for this calculation");
+            alert("Please enter a valid input for Fuel Price. The calculator will use the Default Average Fuel Price of ₦" + fuelPrice + " for this calculation");
         }
     }
 }
@@ -93,9 +93,9 @@ function displayCalculationResults(savingAmount) {
     <div class="row">
         <div class="col-12">
             <p class="mb-0">By Choosing an Electric Vehicle you could save up to</p>
-            <p class="display-3">$₦{savingAmount.toLocaleString()} a year</p>
+            <p class="display-3">₦₦{savingAmount.toLocaleString()} a year</p>
             <p class="mb-0">Over the Life Cycle of a battery*, the savings could reach</p>
-            <p class="display-3">$₦{(savingAmount*8).toLocaleString()}</p>
+            <p class="display-3">₦₦{(savingAmount*8).toLocaleString()}</p>
             <p class="small text-muted">*Life cycle of a battery is approx. 8 years</p>
         </div>
     </div>
