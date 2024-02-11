@@ -49,7 +49,7 @@ function displaySearchResults(resultsList) {
         // for all the items in the results, display thier info on screen
         for (const car of resultsList) {
             carFuelSavings = calculateYearlySavings(1/car['m/kWh']);
-            savingStatement =  `<p class="mb-0 text-success">Save approx ₦₦{carFuelSavings.toLocaleString()} a year with this EV!</p>`;
+            savingStatement =  `<p class="mb-0 text-success">Save approx ₦${carFuelSavings.toLocaleString()} a year with this EV!</p>`;
             display.innerHTML += `
             <div class="card car-display-card quiz-results-bg mt-3">
                 <div class="card-header quiz-results-header">
@@ -57,7 +57,7 @@ function displaySearchResults(resultsList) {
                 </div>
                 <div class="card-body py-5">
                     <img src="${car.img}" alt="Image of a ${car.MANUFACTURER} ${car.MODEL}">
-                    <h5>$${car.PRICE}</h5>
+                    <h5>₦${car.PRICE}</h5>
                     <p class="mb-0">Engine Power - ${car['ENGINE POWER']}</p>
                     <p class="mb-0">Battery Capacity - ${car['BATTERY CAPACITY']}</p>d
                     <p class="mb-0">Kilo Watt Hours per Mile - ${car['m/kWh']}</p>
