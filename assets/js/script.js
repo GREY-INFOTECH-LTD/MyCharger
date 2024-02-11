@@ -62,7 +62,7 @@ function displaySearchResults(resultsList) {
                     <p class="mb-0">Battery Capacity - ${car['BATTERY CAPACITY']}</p>d
                     <p class="mb-0">Kilo Watt Hours per Mile - ${car['m/kWh']}</p>
                 
-                    ₦{carFuelSavings > 0 ?  savingStatement : "&nbsp"}
+                    ₦${carFuelSavings > 0 ?  savingStatement : "&nbsp"}
                 </div>
             </div>
             `;
