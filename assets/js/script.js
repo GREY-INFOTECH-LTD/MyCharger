@@ -49,7 +49,7 @@ function displaySearchResults(resultsList) {
         // for all the items in the results, display thier info on screen
         for (const car of resultsList) {
             carFuelSavings = calculateYearlySavings(1/car['m/kWh']);
-            savingStatement =  `<p class="mb-0 text-success">Save approx $${carFuelSavings.toLocaleString()} a year with this EV!</p>`;
+            savingStatement =  `<p class="mb-0 text-success">Save approx ₦₦{carFuelSavings.toLocaleString()} a year with this EV!</p>`;
             display.innerHTML += `
             <div class="card car-display-card quiz-results-bg mt-3">
                 <div class="card-header quiz-results-header">
@@ -84,7 +84,7 @@ function searchButtonClick() {
     checkCalculatorInputValues();
     // validate user input with an alert if options are not clicked
     if (budgetInput == null && carSizeInput == null) {
-        alert("please select your car budget above and prefered car size above");
+        alert("please select your car budget above and preferred car size above");
         return false;
     } else if (carSizeInput == null) {
         alert("please select a car size above");
@@ -93,8 +93,8 @@ function searchButtonClick() {
         alert("please select your car budget above");
         return false;
     } else {
-        // collect data from the local database https://alissatroiano.github.io/team-4-april-2022/electric.json
-        fetch("https://alissatroiano.github.io/team-4-april-2022/electric.json")
+        // collect data from the local database https://grey-infotech-ltd.github.io/MyCharger/electric.json
+        fetch("https://grey-infotech-ltd.github.io/MyCharger/electric.json")
         .then(
             response => response.json()
         )
