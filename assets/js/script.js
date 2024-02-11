@@ -113,21 +113,21 @@ function searchButtonClick() {
                 switch (budgetInput.slice(3)) {
                     case "Under55":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price < 55,000,000) {
+                            if (resultsStorage[i].data_price < 55000000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
                         break;
                     case "55To90":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price >= 55,000,000 && resultsStorage[i].data_price <= 90,000,000) {
+                            if (resultsStorage[i].data_price >= 55000000 && resultsStorage[i].data_price <= 90000000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
                         break;
                     case "Over90":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price > 90,000,000) {
+                            if (resultsStorage[i].data_price > 90000000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
