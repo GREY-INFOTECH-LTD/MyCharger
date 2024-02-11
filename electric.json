@@ -1,7 +1,7 @@
 [
 	{
 		"_id": {
-			"₦oid": "6261e231692ec77271722f35"
+			"$oid": "6261e231692ec77271722f35"
 		},
 		"img": "https://www.evspecifications.com/images/model/cb4ffc/320/main.jpg",
 		"MODEL": "Mii electric",
@@ -15,7 +15,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6cd2f2f376eabd2aedc"
+			"$oid": "6261e6cd2f2f376eabd2aedc"
 		},
 		"img": "https://www.evspecifications.com/images/model/7700e2/320/main.jpg",
 		"MODEL": "Model S Performance",
@@ -29,7 +29,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6cf2f2f376eabd2aedd"
+			"$oid": "6261e6cf2f2f376eabd2aedd"
 		},
 		"img": "https://www.evspecifications.com/images/model/fb90db/320/main.jpg",
 		"MODEL": "500e",
@@ -43,7 +43,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d12f2f376eabd2aede"
+			"$oid": "6261e6d12f2f376eabd2aede"
 		},
 		"img": "https://www.evspecifications.com/images/model/cd6382/320/main.jpg",
 		"MODEL": "i3 42 kWh",
@@ -57,7 +57,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d32f2f376eabd2aedf"
+			"$oid": "6261e6d32f2f376eabd2aedf"
 		},
 		"img": "https://www.evspecifications.com/images/model/f3eaec/320/main.jpg",
 		"MODEL": "Mustang Mach-E Select RWD",
@@ -71,7 +71,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d42f2f376eabd2aee0"
+			"$oid": "6261e6d42f2f376eabd2aee0"
 		},
 		"img": "https://www.evspecifications.com/images/model/0c8c11f/320/main.jpg",
 		"MODEL": "KONA SE",
@@ -85,7 +85,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d62f2f376eabd2aee1"
+			"$oid": "6261e6d62f2f376eabd2aee1"
 		},
 		"img": "https://www.evspecifications.com/images/model/ced6a3/320/main.jpg",
 		"MODEL": "IONIQ",
@@ -99,7 +99,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d72f2f376eabd2aee2"
+			"$oid": "6261e6d72f2f376eabd2aee2"
 		},
 		"img": "https://www.evspecifications.com/images/model/b1159f/320/main.jpg",
 		"MODEL": "Soul EV",
@@ -113,7 +113,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6d92f2f376eabd2aee3"
+			"$oid": "6261e6d92f2f376eabd2aee3"
 		},
 		"img": "https://www.evspecifications.com/images/model/42896e/320/main.jpg",
 		"MODEL": "e-Niro 64 kWh",
@@ -127,7 +127,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6db2f2f376eabd2aee4"
+			"$oid": "6261e6db2f2f376eabd2aee4"
 		},
 		"img": "https://www.evspecifications.com/images/model/e7efcb/320/main.jpg",
 		"MODEL": "Cooper SE Level II",
@@ -141,7 +141,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6261e6f92f2f376eabd2aee5"
+			"$oid": "6261e6f92f2f376eabd2aee5"
 		},
 		"img": "https://www.evspecifications.com/images/model/f17918/320/main.jpg",
 		"MODEL": "Leaf SV",
@@ -155,7 +155,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "626272712f2f376eabd2aee6"
+			"$oid": "626272712f2f376eabd2aee6"
 		},
 		"img": "https://www.evspecifications.com/images/model/c89bf9/320/main.jpg",
 		"MODEL": "Twingo Electric Life",
@@ -169,7 +169,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629a747858ea130968e7aa"
+			"$oid": "62629a747858ea130968e7aa"
 		},
 		"img": "https://www.evspecifications.com/images/model/ce47f0/320/main.jpg",
 		"MODEL": "Cybertruck Tri Motor ADW",
@@ -183,7 +183,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629acb7858ea130968e7ab"
+			"$oid": "62629acb7858ea130968e7ab"
 		},
 		"img": "https://www.evspecifications.com/images/model/4c9afb/320/main.jpg",
 		"MODEL": "XC40 Recharge P8 AWD",
@@ -197,7 +197,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629ad77858ea130968e7ac"
+			"$oid": "62629ad77858ea130968e7ac"
 		},
 		"img": "https://www.evspecifications.com/images/model/6467b3/320/main.jpg",
 		"MODEL": "Tycan Turbo S",
@@ -211,7 +211,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629ae17858ea130968e7ad"
+			"$oid": "62629ae17858ea130968e7ad"
 		},
 		"img": "https://www.evspecifications.com/images/model/d7bdc9/320/main.jpg",
 		"MODEL": "2 Performance Package",
@@ -225,7 +225,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629ae77858ea130968e7ae"
+			"$oid": "62629ae77858ea130968e7ae"
 		},
 		"img": "https://www.evspecifications.com/images/model/f01116f/320/main.jpg",
 		"MODEL": "EQC 400 4MATIC AMG Edition Premium Plus",
@@ -239,7 +239,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629aed7858ea130968e7af"
+			"$oid": "62629aed7858ea130968e7af"
 		},
 		"img": "https://www.evspecifications.com/images/model/189c93/320/main.jpg",
 		"MODEL": "I-Pace",
@@ -253,7 +253,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629af27858ea130968e7b0"
+			"$oid": "62629af27858ea130968e7b0"
 		},
 		"img": "https://www.evspecifications.com/images/model/818469/320/main.jpg",
 		"MODEL": "e-tron 55 quattro Prestige",
@@ -267,7 +267,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "62629af77858ea130968e7b1"
+			"$oid": "62629af77858ea130968e7b1"
 		},
 		"img": "https://www.evspecifications.com/images/model/2d24e4/320/main.jpg",
 		"MODEL": "Model X Performance (PMSR)",
@@ -281,7 +281,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6265b60148cd98d14b35934c"
+			"$oid": "6265b60148cd98d14b35934c"
 		},
 		"img": "https://www.evspecifications.com/images/model/c61ca2/640/main.jpg",
 		"MODEL": "e-208 GT",
@@ -295,7 +295,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6265ba2b48cd98d14b35934e"
+			"$oid": "6265ba2b48cd98d14b35934e"
 		},
 		"img": "https://www.evspecifications.com/images/model/8c5dcc/640/main.jpg",
 		"MODEL": "Cooper SE Level III",
@@ -309,7 +309,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6265bc2348cd98d14b35934f"
+			"$oid": "6265bc2348cd98d14b35934f"
 		},
 		"img": "https://www.evspecifications.com/images/model/26b9f8/640/main.jpg",
 		"MODEL": "E Advanced",
@@ -323,7 +323,7 @@
 	},
 	{
 		"_id": {
-			"₦oid": "6265be8748cd98d14b359350"
+			"$oid": "6265be8748cd98d14b359350"
 		},
 		"img": "https://www.evspecifications.com/images/model/e95dbc/640/main.jpg",
 		"MODEL": "ID.3 Pure",

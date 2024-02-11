@@ -111,23 +111,23 @@ function searchButtonClick() {
                 }
                 // filer all vehicles by price in brackets
                 switch (budgetInput.slice(3)) {
-                    case "Under55M":
+                    case "Under55":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price < 55) {
+                            if (resultsStorage[i].data_price < 55,000,000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
                         break;
                     case "55To90":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price >= 55 && resultsStorage[i].data_price <= 90) {
+                            if (resultsStorage[i].data_price >= 55,000,000 && resultsStorage[i].data_price <= 90,000,000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
                         break;
                     case "Over90":
                         for (let i = 0; i < resultsStorage.length; i++) {
-                            if (resultsStorage[i].data_price > 90) {
+                            if (resultsStorage[i].data_price > 90,000,000) {
                                 searchResults.push(resultsStorage[i]);
                             }
                         }
