@@ -56,8 +56,8 @@ function displaySearchResults(resultsList) {
                     <h5 class="card-title">${car.MANUFACTURER} - ${car.MODEL}</h5>
                 </div>
                 <div class="card-body py-5">
-                    <img src="${car.img}" alt="Image of a ${car.MANUFACTURER} ₦{car.MODEL}">
-                    <h5>₦₦{car.PRICE}</h5>
+                    <img src="${car.img}" alt="Image of a ${car.MANUFACTURER} ${car.MODEL}">
+                    <h5>₦${car.PRICE}</h5>
                     <p class="mb-0">Engine Power - ${car['ENGINE POWER']}</p>
                     <p class="mb-0">Battery Capacity - ${car['BATTERY CAPACITY']}</p>d
                     <p class="mb-0">Kilo Watt Hours per Mile - ${car['m/kWh']}</p>
