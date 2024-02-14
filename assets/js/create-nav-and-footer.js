@@ -37,7 +37,7 @@ function createFooter () {
     <footer class="flex-wrap d-none d-md-flex justify-content-center align-items-center py-3 border-0 my-0 mx-auto">
     <div class="col-xs-8 col-sm-4 d-flex align-items-center">
     <h6 class="text-dark footer-brand ms-3 ms-md-5"><i class="fas fa-bolt"></i> MyCharger
-    <span class="text-muted">&copy; 2022</span>
+    <span class="text-muted">&copy; 2023</span>
     </h6>
       </div>
       <div class="col-xs-8 col-sm-4 justify-content-center d-flex">
